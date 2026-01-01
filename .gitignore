@@ -1,0 +1,24 @@
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Python
+__pycache__/
+*.pyc
+
+# PowerShell
+*.ps1xml
+
+# Scan outputs (if regenerated)
+*.xml
+*.gnmap
+
+# OS files
+.DS_Store
+
+# Editor configs
+.vscode/

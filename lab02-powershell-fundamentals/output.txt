@@ -1,8 +1,35 @@
 PowerShell 7.4.1
+PSVersion: 7.4.1
 OS: Linux
-Platform: Unix
 
-Mode   LastWriteTime Name
-----   ------------- ----
-d----- Documents
-d----- Downloads
+Name: PowerShell Student
+Age: 25
+Learning PowerShell: True
+First fruit: Apple
+All fruits: Apple Banana Orange Grape
+
+15 is greater than 10
+Grade: B
+Start of the work week!
+
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 5
+
+Processing color: Red
+Processing color: Green
+Processing color: Blue
+Processing color: Yellow
+
+=== File Management Automation ===
+Created directory: src
+Created directory: docs
+Created directory: tests
+Created directory: config
+Project structure created successfully!
+
+=== Validation Results ===
+Tests Passed: 3/3
+All tests passed! Lab completed successfully!

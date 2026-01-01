@@ -1,0 +1,28 @@
+HTTP Filters
+http
+http.request.method == "GET"
+http.response.code == 200
+http.host == "example.com"
+
+TCP Filters
+tcp
+tcp.port == 80
+tcp.flags.syn == 1
+tcp.analysis.retransmission
+
+DNS Filters
+dns
+dns.flags.response == 0
+dns.qry.name contains "google"
+dns.flags.rcode != 0
+
+Combined Filters
+http or tls
+dns or http
+tcp.port == 80 or tcp.port == 443
+
+Security Filters
+dns.qry.name matches ".{20,}"
+http.user_agent contains "bot"
+(tcp.port != 80 and tcp.port != 443) and http
+http.request.method == "POST" and http.content_length > 1000000

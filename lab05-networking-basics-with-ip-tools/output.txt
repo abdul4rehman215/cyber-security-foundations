@@ -1,0 +1,22 @@
+=== Network Diagnostic Report ===
+Date: Wed Jan  1 13:22:41 UTC 2026
+
+=== IP Configuration ===
+inet 172.31.10.168/20
+
+=== Default Gateway ===
+default via 172.31.0.1 dev ens5
+
+=== DNS Servers ===
+nameserver 172.31.0.2
+
+=== Connectivity Tests ===
+2 packets transmitted, 2 received, 0% packet loss
+
+Traceroute (excerpt):
+1  172.31.0.1
+2  52.93.112.1
+5  142.250.183.46
+
+Listening services:
+LISTEN 0 128 0.0.0.0:22

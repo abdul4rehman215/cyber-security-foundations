@@ -1,0 +1,11 @@
+Created backup directory: /home/toor/backups/backup_20260101_120415
+Backup completed successfully!
+Backup size: 20K
+
+SUCCESS: Backup completed for /home/toor/test_data
+SUCCESS: Backup completed for /home/toor/scripts
+
+Cron Job Monitoring Dashboard
+✓ Cron service is running
+Number of backups: 4
+Monitoring complete!

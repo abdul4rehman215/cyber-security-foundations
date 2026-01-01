@@ -1,0 +1,8 @@
+PowerShell 7.4.1
+OS: Linux
+Platform: Unix
+
+Mode   LastWriteTime Name
+----   ------------- ----
+d----- Documents
+d----- Downloads

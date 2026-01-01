@@ -1,0 +1,19 @@
+Nmap scan results:
+22/tcp open ssh OpenSSH 9.6p1 Ubuntu
+
+UDP scan:
+All scanned UDP ports are closed|filtered
+
+Netcat banner grabbing:
+SSH-2.0-OpenSSH_9.6p1 Ubuntu
+
+Listener test:
+Hello from client
+Hello from listener
+
+Service identification:
+LISTEN 0 128 0.0.0.0:22
+
+Security assessment:
+Open Ports: 22/tcp (SSH)
+Recommendation: Close unused services

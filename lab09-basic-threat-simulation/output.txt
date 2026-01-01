@@ -1,0 +1,20 @@
+Nmap version 7.94
+
+Open Ports Detected:
+22/tcp open ssh
+80/tcp open http
+
+UDP Scan:
+68/udp open dhcpc
+
+Scan Summary:
+Host State: up
+Open Ports: 2
+Potential Threats: 2
+
+Files generated:
+threat_analysis_YYYYMMDD.json
+security_report_YYYYMMDD.txt
+threat_scan_YYYYMMDD.log
+
+HTML dashboard generated successfully

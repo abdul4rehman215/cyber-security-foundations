@@ -1,0 +1,6 @@
+Write-Output "=== System Information Report ==="
+Write-Output "PowerShell Version: $($PSVersionTable.PSVersion)"
+Write-Output "Current Location: $(Get-Location)"
+Write-Output "Files: $((Get-ChildItem -File).Count)"
+Write-Output "Directories: $((Get-ChildItem -Directory).Count)"
+Write-Output "Report completed!"

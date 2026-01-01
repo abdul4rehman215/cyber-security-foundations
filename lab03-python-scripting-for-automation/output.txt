@@ -1,0 +1,32 @@
+Network Device Inventory:
+----------------------------------------
+Device Name | IP Address   | Status
+----------------------------------------
+server1      | 192.168.1.10 | active
+server2      | 192.168.1.11 | inactive
+server3      | 192.168.1.12 | active
+firewall1    | 192.168.1.1  | active
+
+Generating security log entries...
+Log entry written: INFO
+Log entry written: WARNING
+Log entry written: ERROR
+Log entry written: INFO
+Log entry written: CRITICAL
+All log entries written to ../logs/security.log
+
+=== FOLDER CLEANUP AUTOMATION ===
+Cleanup completed!
+Files removed: 9
+Directories removed: 1
+
+NETWORK SECURITY MONITORING SYSTEM
+Monitoring completed. Total scans: 2
+
+TESTING MULTIPLE PASSWORDS
+Password: 123456
+Strength Score: 0/11
+Password: password
+Strength Score: 4/11
+Password: SuperSecure123!
+Strength Score: 11/11

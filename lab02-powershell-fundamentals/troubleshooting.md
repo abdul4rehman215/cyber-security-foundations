@@ -1,7 +1,19 @@
-## Common Issues
+# 🛠️ Troubleshooting – Lab 02
 
-**pwsh not found**
-- Install using: sudo apt install powershell
+## Issue: pwsh command not found
+**Solution:**  
+Install PowerShell Core using:
+```bash
+sudo apt install powershell
+```
+## Issue: Script execution blocked
 
-**Script execution blocked**
-- Run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Solution:
+Temporarily bypass execution policy:
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+## Issue: Scripts not producing output
+
+Solution:
+Ensure scripts are executed inside PowerShell (pwsh) and not Bash.

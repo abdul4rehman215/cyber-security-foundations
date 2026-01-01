@@ -1,0 +1,7 @@
+UFW Status: Active
+SSH Port: 2222
+Root Login: Disabled
+Password Authentication: Disabled
+Key-based Authentication: Enabled
+Monitoring Scripts: Executed Successfully
+Cron Jobs: Installed

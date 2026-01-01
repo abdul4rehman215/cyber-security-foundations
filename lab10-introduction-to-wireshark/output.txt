@@ -1,0 +1,17 @@
+Wireshark version 4.2.0
+
+Available interfaces:
+1. ens5
+2. lo
+
+150 packets captured on ens5
+
+Traffic verified:
+HTTP ✔
+DNS ✔
+TCP ✔
+
+Reports generated:
+network_analysis_report.txt
+http_traffic.pcap
+http_traffic.csv

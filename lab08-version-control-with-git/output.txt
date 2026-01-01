@@ -1,0 +1,22 @@
+git version 2.43.0
+
+Initialized empty Git repository in /home/toor/my-first-repo/.git/
+
+On branch main
+No commits yet
+
+[main (root-commit) a1b2c3d] Initial commit: Add README and hello world program
+ 2 files changed, 15 insertions(+)
+
+[main d4e5f6a] Add user greeting function and configuration file
+ 2 files changed, 11 insertions(+)
+
+Switched to a new branch 'feature-improvements'
+
+Updating d4e5f6a..f7g8h9i
+Fast-forward
+ hello.py | 9 +++++++++
+
+Ignored correctly ✔️
+
+v1.0

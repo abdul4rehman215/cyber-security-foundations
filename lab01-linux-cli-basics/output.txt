@@ -1,0 +1,10 @@
+/home/toor
+
+Desktop Documents Downloads Music Pictures Public Templates Videos
+
+-rw-r--r-- 1 toor toor 0 test_file.txt
+-rwxr-xr-x 1 toor toor 38 my_script.sh
+
+Hello from my script!
+
+Congratulations! You have mastered Linux basics!

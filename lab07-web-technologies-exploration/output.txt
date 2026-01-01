@@ -1,0 +1,27 @@
+PING google.com ... 0% packet loss
+
+GET https://httpbin.org/get
+HTTP/2 200 OK
+content-type: application/json
+
+Saved response.json successfully
+
+GET with parameters:
+name=student
+course=cybersecurity
+
+GitHub API:
+login: octocat
+public_repos: 8
+followers: 12000
+
+POST form data successful
+POST JSON successful
+PUT / DELETE / PATCH requests successful
+
+HTTP Status Codes:
+200
+404
+500
+
+All Python API client scripts executed successfully

@@ -1,6 +1,0 @@
-auditd status: active
-Audit rules loaded successfully
-Baseline hashes created
-Integrity scan detected changes
-Real-time monitoring active
-Continuous FIM service tested

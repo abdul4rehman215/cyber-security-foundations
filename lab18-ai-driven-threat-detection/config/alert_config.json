@@ -1,0 +1,13 @@
+{
+  "console_alerts": true,
+  "alert_threshold": 2,
+  "monitoring_interval": 3,
+  "alert_log_file": "../alerts/threat_alerts.log",
+  "threat_patterns": ["failed login","unauthorized","injection","malware","scanning"],
+  "severity_levels": {
+    "injection": "HIGH",
+    "malware": "HIGH",
+    "unauthorized": "MEDIUM",
+    "failed login": "LOW"
+  }
+}

@@ -1,0 +1,46 @@
+[2026-01-01 12:01:12] === Starting automated system update ===
+[2026-01-01 12:01:18] Package list update successful
+[2026-01-01 12:02:01] Package upgrade successful
+[2026-01-01 12:02:08] System cleanup completed
+[2026-01-01 12:02:08] No reboot required
+[2026-01-01 12:02:08] === Update completed ===
+
+[2026-01-01 12:05:11] Security updates available: 3
+[2026-01-01 12:05:44] Security updates installed
+
+{
+  "timestamp": "2026-01-01T12:12:09.343221",
+  "hostname": "ubuntu-lab",
+  "checks": {
+    "failed_logins": 2,
+    "disk_usage": {
+      "used_percent": 41.3,
+      "status": "OK"
+    },
+    "pending_updates": 5
+  }
+}
+
+{
+  "timestamp": "2026-01-01T12:15:54.812234",
+  "snapshot": "/var/backups/patch-manager/20260101_121554",
+  "updates": {
+    "security": [
+      "openssl/jammy-security",
+      "libssl3/jammy-security"
+    ],
+    "regular": [
+      "vim/jammy-updates"
+    ]
+  },
+  "success": true
+}
+
+2026-01-01 12:18:41 [INFO] Checking for Windows updates...
+2026-01-01 12:18:42 [INFO] Installing KB501
+2026-01-01 12:18:43 [INFO] Installing KB502
+2026-01-01 12:18:44 [INFO] 2 updates installed
+
+CRON execution verified:
+(system-update.sh)
+(system_monitor.py)

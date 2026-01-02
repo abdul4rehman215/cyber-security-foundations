@@ -1,24 +1,85 @@
-# Logs
-*.log
-
-# Temporary files
-*.tmp
+# ===============================
+# OS & Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
 *.bak
-*.cache
 
+# ===============================
 # Python
+# ===============================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+pip-log.txt
 
-# PowerShell
-*.ps1xml
+# ===============================
+# Logs & Outputs
+# ===============================
+*.log
+logs/
+alerts/
+reports/
+*.out
 
-# Scan outputs (if regenerated)
-*.xml
-*.gnmap
+# ===============================
+# Security & Sensitive Files
+# ===============================
+*.key
+*.pem
+*.crt
+*.pfx
+*.secret
+*.token
+*.cred
+*.vault
+secrets/
+credentials/
 
-# OS files
-.DS_Store
+# ===============================
+# Forensics & SOC Artifacts
+# ===============================
+*.pcap
+*.evtx
+*.dmp
+*.mem
+*.img
+*.dd
+*.raw
+*.tar.gz
+*.zip
 
-# Editor configs
-.vscode/
+# ===============================
+# Databases
+# ===============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===============================
+# System Files
+# ===============================
+/tmp/*
+/var/log/*
+/opt/soc/logs/*
+/opt/soc/alerts/*
+/opt/soc/reports/*
+
+# ===============================
+# ML Models
+# ===============================
+*.pkl
+models/
+
+# ===============================
+# Backup Files
+# ===============================
+*.old
+*.backup

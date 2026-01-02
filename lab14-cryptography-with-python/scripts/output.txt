@@ -1,0 +1,20 @@
+SHA256 Hash: 4dfed4c2a6e9c62f07a50b2a86f2a27b16a1f4f2bfa9a4c4f3c9e5a6a9b9c2f1
+Hash Length: 64 characters
+
+[OK] File added: testfile.txt
+
+[OK] Integrity verified.
+
+[WARNING] File modified!
+
+Enter text to encrypt: cyber security fundamentals
+Encrypted: b'gAAAAABlZx1x8W9XfFZkP4kH8Q8o3pM1K8L9D2R0b0pY6YxX2vTqJ9oM1l4XgQZ'
+Decrypted: cyber security fundamentals
+
+Password:
+[OK] File encrypted.
+
+Password:
+[OK] File decrypted.
+
+Confidential data

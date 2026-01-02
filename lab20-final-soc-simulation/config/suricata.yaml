@@ -1,0 +1,27 @@
+vars:
+  address-groups:
+    HOME_NET: "[192.168.0.0/16,10.0.0.0/8,172.16.0.0/12]"
+    EXTERNAL_NET: "!$HOME_NET"
+
+default-log-dir: /opt/soc/logs/
+
+outputs:
+  - eve-log:
+      enabled: yes
+      filename: suricata-eve.json
+      types:
+        - alert
+        - http
+        - dns
+
+af-packet:
+  - interface: eth0
+
+rule-files:
+  - suricata.rules
+  - custom.rules
+sudo suricata-update
+sudo systemctl enable suricata
+sudo systemctl restart suricata
+sudo systemctl status suricata --no-pager
+Active: active (running)

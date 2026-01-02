@@ -1,0 +1,21 @@
+/home/forensics
+├── logs
+├── processes
+├── network
+├── scripts
+├── analysis
+└── system_info
+
+Hostname: ip-172-31-10-201
+Kernel: Linux 6.8.0-31-generic
+OS: Ubuntu 24.04 LTS
+Uptime: up 3 hours
+
+[INFO] Starting forensic collection
+[INFO] Collection completed: /home/forensics/automated_collection_20260101_1147
+
+Analysis complete
+
+Analysis saved to /home/forensics/unauthorized_analysis_20260101_1155
+
+Report generated: /home/forensics/reports/forensic_report_20260101_1158.txt

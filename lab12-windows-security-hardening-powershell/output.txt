@@ -1,0 +1,6 @@
+PowerShell Version: 7.4.1
+Security Policies Applied
+JSON Configurations Generated
+Integrity Baselines Created
+Change Detection Active
+HTML Security Report Generated

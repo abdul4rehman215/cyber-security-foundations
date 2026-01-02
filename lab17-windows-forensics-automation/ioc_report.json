@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-01T13:24:41",
+  "total_anomalies": 3,
+  "anomalies": [
+    {
+      "event": "4625",
+      "count": 1842,
+      "severity": "High"
+    }
+  ],
+  "recommendations": [
+    "Investigate high-frequency login failures",
+    "Review privilege escalation events",
+    "Audit new service installations"
+  ]
+}

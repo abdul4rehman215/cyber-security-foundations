@@ -1,0 +1,36 @@
+Generated 1050 log entries in logs/system.log
+1050 logs/system.log
+
+Failed login anomalies:
+admin      14
+service     9
+
+Suspicious IPs:
+10.0.0.77    12
+10.0.0.55    11
+
+After-hours activity:
+admin      58
+service    41
+alice      36
+bob        32
+charlie    29
+
+Keyword-based anomalies:
+2026-01-01 02:11:44 admin SQL injection attempt detected
+2026-01-01 01:05:12 admin Malware signature detected
+
+=== Summary ===
+Total entries: 1050
+Warnings: 50
+Unique users: 5
+Unique IPs: 306
+Time range: 2025-12-31 -> 2026-01-01
+
+[2026-01-01T11:44:12] [LOW] failed login | Multiple failed login attempts
+[2026-01-01T11:44:15] [HIGH] injection | SQL injection attempt detected
+
+precision    recall  f1-score   support
+0       0.98      0.99      0.99
+1       0.91      0.88      0.89
+accuracy                           0.98

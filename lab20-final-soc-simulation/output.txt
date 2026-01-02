@@ -1,0 +1,27 @@
+Suricata version 6.0.10
+Fail2Ban v0.11.2
+
+SOC directories created:
+alerts  logs  playbooks  reports  scripts
+
+Suricata service:
+Active: active (running)
+
+Analysis complete: 3 alerts generated
+
+Fail2Ban SSH jail:
+Currently banned: 1
+
+iptables rules:
+DROP  all  --  192.168.1.55  0.0.0.0/0
+
+Alert log:
+{"type":"IP_BLOCKED","message":"Blocked 192.168.1.55 for brute_force"}
+
+Fail2Ban SSH jail:
+Currently banned: 2
+
+Playbook execution:
+Playbook started: brute_force
+Step logged: Block IP
+Playbook completed: resolved

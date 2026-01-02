@@ -1,0 +1,8 @@
+{
+  "current_control_set": "ControlSet001",
+  "computer_name": "WIN-CLIENT01",
+  "services": [
+    { "name": "WinDefend", "last_write": "2024-11-21T10:14:03" },
+    { "name": "EventLog", "last_write": "2024-11-19T08:44:18" }
+  ]
+}

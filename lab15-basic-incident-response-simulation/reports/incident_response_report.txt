@@ -1,0 +1,23 @@
+Incident ID: IR-2026-01-001
+Date Detected: 2026-01-01 10:30
+Analyst: Abdul Rehman
+Severity: HIGH
+
+Indicators of Compromise:
+- Unauthorized Python process (/tmp/.xminer.py)
+- Outbound connection to 185.203.116.45:4444
+- Failed login attempts from same IP
+
+Containment Actions:
+1. Terminated malicious process
+2. Blocked attacker IP via iptables
+3. Preserved logs and evidence
+
+Evidence:
+- ir_collection_20260101_103922.tar.gz
+- SHA256 hash verified
+
+Recommendations:
+- Enable AIDE baseline
+- Restrict outbound traffic
+- Implement SIEM monitoring
